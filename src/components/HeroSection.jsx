@@ -7,7 +7,7 @@ const HeroSection = () => {
   
       <h2 className='text-[min(5vw,2rem)] font-semibold text-center mx-auto max-w-7xl p-1 '>Avail The Best Chauffeur Service Now!</h2>
 
-      <div className="relative h-[60vh] sm:h-[60vh] w-full my-auto">
+      <div className="relative h-[65vh] sm:h-[70vh] w-full my-auto">
       <img
         src={heroimage}
         alt="Hero"
@@ -28,9 +28,9 @@ const HeroSection = () => {
         </button>
       </div>
       </div>
-{/* Second Block */}
-       <div class="block p-4">
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+    {/* Second Block */}
+       <div class="block">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center lg:px-4">
         <Tabs />
         </div>  
      </div>
