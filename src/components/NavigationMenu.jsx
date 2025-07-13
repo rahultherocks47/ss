@@ -29,20 +29,20 @@ export default function NavigationMenu() {
     const [openDropdown, setOpenDropdown] = useState(null);
   return (
     <Disclosure as="nav" className="bg-white-800 py-1 relative shadow-sm border-b border-gray-300">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl pl-6 pr-4 sm:px-6 lg:px-8">
         <div className="relative flex h-25 items-center justify-between">
 
           {/* Logo and Navigation Links Start*/}
           <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
 
             {/* # Item 1: Logo */}
-            {/* <div className="flex shrink-0 items-center bg-black"> */}
+            <div className="flex shrink-0 items-center bg-black">
               <img
                 alt="Your Company"
                 src={logo}
                 className="h-25 w-45 bg-black"
               />
-            {/* </div> */}
+            </div>
 
           {/* # Item 2: Menu */}
             <div className="hidden md:ml-4 md:block">
