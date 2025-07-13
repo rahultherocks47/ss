@@ -15,9 +15,9 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-black/50"></div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
     {/* First Block */}
-    <div class="hidden lg:block p-4">
+    <div class="hidden md:block p-4">
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <h1 className="text-[min(10vw,48px)] font-bold">Welcome to Our Site</h1>
         <p className="mt-4 text-[min(10vw,18px)] max-w-xl">
@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
     {/* Second Block */}
        <div class="block">
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center mx-1 lg:px-4">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center mx-1 md:p-4 md:m-auto">
         <Tabs />
         </div>  
      </div>
