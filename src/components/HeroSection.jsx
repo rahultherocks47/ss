@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
     {/* Second Block */}
        <div class="block">
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center lg:px-4">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center mx-1 lg:px-4">
         <Tabs />
         </div>  
      </div>
