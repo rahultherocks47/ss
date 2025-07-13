@@ -14,7 +14,7 @@ function App() {
      <NavigationMenu />
     <HeroSection />
     <CarsSection />
-    {/* <FeaturesSection /> */}
+    <FeaturesSection />
     <Footer />
     </>
   )

@@ -10,8 +10,10 @@ const FeatureCard = ({
   return (
     <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center h-full border border-gray-100">
       <div className="flex items-center flex-rows justify-center mb-4 h-1/2">
-      <Icon className="block"/>
-      <h3 className="text-xl font-semibold text-center mb-2">{title}</h3>
+      <div class="w-16 h-16">
+      <Icon className="w-full h-full flex flex-left"/>
+      </div>
+      <h3 className="text-xl font-semibold text-center mb-2 ml-3">{title}</h3>
       </div>
       <p className="text-gray-600 text-center text-base">{description}</p>
     </div>
