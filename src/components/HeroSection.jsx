@@ -7,7 +7,7 @@ const HeroSection = () => {
   
       <h2 className='text-[min(5vw,2rem)] font-semibold text-center mx-auto max-w-7xl p-1 '>Avail The Best Chauffeur Service Now!</h2>
 
-      <div className="relative h-[80vh] sm:h-[80vh] w-full my-auto">
+      <div className="relative h-[60vh] sm:h-[60vh] w-full my-auto">
       <img
         src={heroimage}
         alt="Hero"
