@@ -29,8 +29,8 @@ const HeroSection = () => {
       </div>
       </div>
     {/* Second Block */}
-       <div class="block">
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center mx-1 md:p-4 md:m-auto">
+       <div class="block p-2 md:p-4">
+        <div className="relative z-10 flex flex-col items-center justify-center m-auto h-full text-white text-center mx-1 md:p-4 md:m-auto">
         <Tabs />
         </div>  
      </div>
