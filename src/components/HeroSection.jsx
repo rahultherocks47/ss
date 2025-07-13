@@ -8,7 +8,7 @@ const HeroSection = () => {
     Avail The Best Chauffeur Service Now!
   </h2>
 
-  <div className="relative w-full min-h-[60vh] sm:min-h-[40vh] md:min-h-[60vh] my-auto">
+  <div className="relative w-full min-h-[65vh] sm:min-h-[40vh] md:min-h-[90vh] my-auto">
     <img
       src={heroimage}
       alt="Hero"
