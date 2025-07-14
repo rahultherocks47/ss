@@ -13,9 +13,15 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="bg-gray-100">
-      <div className="container max-w-screen-xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <section>
+      <div className="bg-gray-200 px-2 py-10">
+      <div id="features" className="mx-auto max-w-6xl">
+        <p class="text-center text-base font-semibold leading-7 text-blue-500">Features</p>
+    <h2 class="text-center font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+      Writing has never been so easy
+    </h2>
+        <div>
+          <ul class="mt-16 grid grid-cols-1 gap-6 px-6 text-center text-slate-700 md:grid-cols-3">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
@@ -24,6 +30,8 @@ const FeaturesSection = () => {
               description={feature.description}
             />
           ))}
+          </ul>
+      </div>
       </div>
       </div>
     </section>

@@ -8,15 +8,13 @@ const FeatureCard = ({
   // If icon is a function (React component), render it. Otherwise, treat as image src
   const Icon = icon;
   return (
-    <div className="bg-white rounded-xl shadow p-6 flex flex-col items-center h-full border border-gray-100">
-      <div className="flex items-center flex-rows justify-center mb-4 h-1/2">
-      <div class="w-16 h-16">
-      <Icon className="w-full h-full flex flex-left"/>
-      </div>
-      <h3 className="text-xl font-semibold text-center mb-2 ml-3">{title}</h3>
-      </div>
-      <p className="text-gray-600 text-center text-base">{description}</p>
-    </div>
+    <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
+        <Icon class="mx-auto h-10 w-10" />
+        <h3 class="my-3 font-display font-medium">{title}</h3>
+        <p class="mt-1.5 text-sm leading-6 text-secondary-500">
+          {description}
+        </p>
+      </li>
   );
 };
 
