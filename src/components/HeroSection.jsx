@@ -4,7 +4,7 @@ import Tabs from './Tabs';
 const HeroSection = () => {
   return (
     <section >
-  
+
       <h2 className='text-[min(5vw,2rem)] font-semibold text-center mx-auto max-w-7xl p-1 '>Avail The Best Chauffeur Service Now!</h2>
 
       <div className="relative min-h-[60vh] sm:min-h-[40vh] sm:max-h-[70vh] w-full my-auto">

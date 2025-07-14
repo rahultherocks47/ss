@@ -5,14 +5,18 @@ import HeroSection from './components/HeroSection'
 import Footer from './components/Footer'
 import CarsSection from './components/CarsSection'
 import FeaturesSection from './components/FeaturesSection'
-import DemoSection from './DemoSection'
+import DemoSection from './components/DemoSection'
+import TopBar from './components/TopBar'
+import ContactBar from './components/ContactBar'
 
 function App() {
   
 
   return (
     <>
-    <NavigationMenu />
+    <ContactBar />
+    <TopBar/>
+    {/* <NavigationMenu /> */}
     {/* <HeroSection /> */}
     <DemoSection />
     <CarsSection />
