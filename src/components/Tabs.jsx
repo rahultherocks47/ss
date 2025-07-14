@@ -127,7 +127,7 @@ const Tabs = () => {
   const forms = [<OneWayForm key="oneway" />, <ByHourForm key="byhour" />];
 
   return (
-    <div className="w-full max-w-md mx-auto my-auto bg-white rounded-lg shadow border">
+    <div className="w-full max-w-md mx-auto my-auto bg-white rounded-lg shadow border border-gray-200 p-4">
       {/* Tab Headers */}
       <div className="flex w-full border-b border-gray-200">
         {tabs.map((tab, idx) => (

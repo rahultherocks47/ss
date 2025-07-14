@@ -8,7 +8,8 @@ const CarCard = ({
   moreLink = "#",
 }) => {
   return (
-  <div className="group flex flex-col items-center bg-white rounded-lg shadow hover:shadow-xl transition-shadow duration-200 p-2">
+    // transition-shadow duration-200 p-2
+  <div className="group flex flex-col items-center bg-white rounded-lg shadow hover:shadow-xl p-4">
     <img
       src={image}
       alt={title}

@@ -28,7 +28,7 @@ function classNames(...classes) {
 export default function NavigationMenu() {
     const [openDropdown, setOpenDropdown] = useState(null);
   return (
-    <Disclosure as="nav" className="bg-white-800 py-1 relative shadow-sm border-b border-gray-300">
+    <Disclosure as="nav" className="bg-blue-200 py-1 relative shadow-sm border-b border-gray-300">
       <div className="mx-auto max-w-7xl pl-6 pr-4 sm:px-6 lg:px-8">
         <div className="relative flex h-25 items-center justify-between">
 
@@ -36,11 +36,11 @@ export default function NavigationMenu() {
           <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
 
             {/* # Item 1: Logo */}
-            <div className="flex shrink-0 items-center bg-black">
+            <div className="mx-auto sm:mx-0 flex shrink-0 items-center justify-center bg-black/50 rounded-xl">
               <img
                 alt="Your Company"
                 src={logo}
-                className="h-25 w-45 bg-black"
+                className="h-25 w-45 "
               />
             </div>
 
