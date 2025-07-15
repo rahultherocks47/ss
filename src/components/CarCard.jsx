@@ -31,7 +31,7 @@ const CarCard = ({
         </div>
       ))}
     </dl>
-    <button className="w-full bg-[#bfa76a] hover:bg-[#a48d4d] text-white font-semibold py-2 rounded transition flex items-center justify-center gap-2 mb-2">
+    <button className="w-full bg-gray-600 hover:bg-gray-800 text-white font-semibold py-2 rounded transition flex items-center justify-center gap-2 mb-2">
       {buttonText}
       <span aria-hidden>→</span>
     </button>
