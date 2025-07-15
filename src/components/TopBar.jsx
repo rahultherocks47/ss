@@ -20,7 +20,7 @@ const TopBar = () => {
     }, []);
   return (
     <>
-<div class="hidden mx-auto p-2 max-w-7xl sm:block sm:grid sm:grid-cols-3 gap-6 items-center justify-between">
+<div class="hidden mx-auto py-2 max-w-7xl sm:block sm:grid sm:grid-cols-3 gap-6 items-center justify-between">
 <div class="flex flex-rows items-center justify-center max-w-sm">
   <Shield class="w-1/5 h-8" />
   <div class="text-left w-4/5 text-[min(5vw,10px)]">24/7 Global Chauffeur Service</div> 

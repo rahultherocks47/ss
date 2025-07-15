@@ -1,7 +1,5 @@
 import React from 'react';
 import Tabs from './Tabs';
-import heroimage from '../assets/images/hero_image.webp';
-import herolottie from '../assets/images/herolottie.json';
 import NavigationMenu from './NavigationMenu';
 import MyLottieComponent from "./MyLottieComponent";
 import Carousel from './Carousel';
