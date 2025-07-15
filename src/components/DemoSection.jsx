@@ -3,18 +3,23 @@ import Tabs from './Tabs';
 import heroimage from '../assets/images/hero_image.webp';
 import herolottie from '../assets/images/herolottie.json';
 import NavigationMenu from './NavigationMenu';
+import MyLottieComponent from "./MyLottieComponent";
+import Carousel from './Carousel';
 const DemoSection = () => {
 return (
   <section className="relative w-full bg-gray-400">
+    {/* <Carousel /> */}
     {/* TopBar goes here if you have one, otherwise place NavigationMenu at the top */}
     <NavigationMenu />
     <div className="relative">
-      <img src={heroimage} alt="Hero" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-black/50"></div>
+      
+      {/* <img src={heroimage} alt="Hero" className="absolute inset-0 w-full h-full object-cover" /> */}
+      <div className="absolute inset-0 bg-slate-6absolute inset-0 bg-gradient-to-r from-gray-800 to-transparent"></div>
       <div className='mb-10 max-w-7xl mx-auto px-6 py-6 sm:py-10 md:flex items-center justify-between mx-auto relative z-10'>
         {/* 1st Block */}
         <div className='hidden md:block md:w-1/2 mb-10 md:mb-0'>
-        <iframe src="https://lottie.host/embed/205af238-35b0-4938-aae4-502be3425ad5/roxXmxR0Ve.lottie" width="100%" height="100%"></iframe>
+        <MyLottieComponent />
+        {/* <iframe src="https://lottie.host/embed/205af238-35b0-4938-aae4-502be3425ad5/roxXmxR0Ve.lottie" width="100%" height="100%"></iframe> */}
         {/* <lottie-player src=""  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> */}
         </div>
         {/* <div className='hidden md:block md:w-1/2 mb-10 md:mb-0'>

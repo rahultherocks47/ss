@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
  const _date = new Date()
  const today = _date.toISOString().split('T')[0]; // "YYYY-MM-DD"
  const hours = _date.getHours();
@@ -58,7 +59,7 @@ const OneWayForm = () => (
         <input type="time" className="bg-transparent outline-none w-full text-gray-600" />
       </div>
     </div>
-    <button type="submit" className="w-full py-3 rounded bg-gradient-to-r from-red-500 to-orange-400 text-white font-semibold text-lg mt-2">
+    <button type="submit" className="w-full py-3 rounded bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-yellow-500 transition-colors duration-300 text-white font-semibold text-lg mt-2">
       Search
     </button>
   </form>
