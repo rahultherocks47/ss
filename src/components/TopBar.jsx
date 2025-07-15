@@ -23,15 +23,15 @@ const TopBar = () => {
 <div class="hidden mx-auto p-2 max-w-7xl sm:block sm:grid sm:grid-cols-3 gap-6 items-center justify-between">
 <div class="flex flex-rows items-center justify-center max-w-sm">
   <Shield class="w-1/5 h-8" />
-  <div class="text-left w-4/5 text-[min(5vw,12px)]">24/7 Global Chauffeur Service</div> 
+  <div class="text-left w-4/5 text-[min(5vw,10px)]">24/7 Global Chauffeur Service</div> 
   </div>
 <div class="flex flex-rows items-center justify-center max-w-sm">
   <Planet class="w-1/5 h-6" />
-  <div class="text-left w-4/5 text-[min(5vw,12px)]">Discreet, Reliable & Secure</div> 
+  <div class="text-left w-4/5 text-[min(5vw,10px)]">Discreet, Reliable & Secure</div> 
   </div>
 <div class="flex flex-rows items-center justify-center max-w-sm">
   <Like class="w-1/5 h-6" />
-  <div class="text-left w-4/5 text-[min(5vw,12px)]" >Luxury Fleet & Professional Chauffeurs</div> 
+  <div class="text-left w-4/5 text-[min(5vw,10px)]" >Luxury Fleet & Professional Chauffeurs</div> 
   </div>
 </div>
 
